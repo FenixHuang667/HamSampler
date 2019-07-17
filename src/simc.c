@@ -158,7 +158,7 @@ void Inverse_fold_rate(char *struc, char *ref_seq, char *sequence_patten, int di
         rand_seq_index = rand_seq_index->next;
     }
     
-    fprintf(out, "EMR of the random sequence ta distance %d: %d/%d = %f\n", distance, cnt, mul, ((float) cnt / mul));
+    fprintf(out, "EMR of the random sampled sequences at distance %d: %d/%d = %f\n", distance, cnt, mul, ((float) cnt / mul));
 
     
     if (neighbor) {
